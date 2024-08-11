@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sidebar {
+  width: 25%;
+  background-color: #e3e3e3;
+  padding: 20px;
+}
+
+.main-content {
+  width: 75%;
+  padding: 20px;
+}
