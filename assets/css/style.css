@@ -27,10 +27,10 @@ body {
 }
 
 header {
-  background-color: #007ACC; /* 顶部导航栏背景颜色 */
-  padding: 10px;
-  display: flex;
-  justify-content: flex-end; /* 将导航栏内容推到右边 */
+  background-color: #f4f4f4; /* 顶部导航栏背景颜色 */
+  padding: 10px 20px;
+  <!--  display: flex;
+  justify-content: flex-end; /* 将导航栏内容推到右边 */ -->
 }
 
 .top-nav ul {
@@ -38,6 +38,7 @@ header {
   margin: 0;
   padding: 0;
   display: flex; /* 将导航链接水平排列 */
+  justify-content: flex-start; /* 将导航栏内容推到左边 */
 }
 
 .top-nav ul li {
@@ -46,14 +47,14 @@ header {
 
 .top-nav ul li a {
   text-decoration: none;
-  color: #ffffff; /* 链接颜色 */
+  color: #333; /* 链接颜色 */
   font-weight: bold;
   padding: 8px 16px;
   border-radius: 4px;
 }
 
 .top-nav ul li a:hover {
-  background-color: #005AB5; /* 悬停时的背景颜色 */
+  background-color: #e0e0e0; /* 悬停时的背景颜色 */
 }
 
 .content {
