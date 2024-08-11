@@ -1,0 +1,11 @@
+# Site Settings
+locale: "en-US"
+title: "Shu-An Tsai"
+title_separator : "-"
+name: "Shu-An Tsai"
+url : "https://shuantsai.github.io"
+baseurl: "/"
+repository: "shuantsai/kuriwaki.github.io"
+#logo: "/favicon.ico"
+github : [metadata]
+theme: jekyll-theme-minimal
