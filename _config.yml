@@ -4,8 +4,15 @@ title: "Shu-An Tsai"
 title_separator : "-"
 name: "Shu-An Tsai"
 url : "https://shuantsai.github.io"
-baseurl: "/"
+baseurl: ""
 repository: "shuantsai/kuriwaki.github.io"
 #logo: "/favicon.ico"
 github : [metadata]
 theme: jekyll-theme-minimal
+
+
+# Include plugins if needed
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
