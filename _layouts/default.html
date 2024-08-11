@@ -1,19 +1,22 @@
-<!doctype html>
-<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
-<title>{{ page.title }}</title>
-
+<!DOCTYPE html>
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}">
 <head>
-  {% include head.html %}
-  {% include head/custom.html %}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
-
-<body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
-
-  {% include bio-name.html %}
-
-  {{ content }}
-
+<body class="layout--default">
+  <div class="container">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      {% include sidebar.html %}
+    </div>
+    <!-- Main Content -->
+    <div class="main-content">
+      {{ content }}
+    </div>
+  </div>
   {% include scripts.html %}
 </body>
-
 </html>
