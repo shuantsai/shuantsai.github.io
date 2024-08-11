@@ -7,16 +7,24 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body class="layout--default">
-  <div class="container">
-    <!-- Sidebar -->
-    <div class="sidebar">
-      {% include sidebar.html %}
-    </div>
-    <!-- Main Content -->
-    <div class="main-content">
-      {{ content }}
-    </div>
+  <!-- Top Navigation Bar -->
+  <header>
+    <nav class="top-nav">
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/research/' | relative_url }}">Research</a></li>
+        <li><a href="{{ '/teaching/' | relative_url }}">Teaching</a></li>
+        <li><a href="{{ '/cv/' | relative_url }}">CV</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    {{ content }}
   </div>
+
   {% include scripts.html %}
 </body>
 </html>
+
