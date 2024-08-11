@@ -6,21 +6,42 @@ body {
   padding: 0;
 }
 
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sidebar {
+  width: 25%;
+  background-color: #e3e3e3;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.main-content {
+  width: 75%;
+  padding: 20px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
 header {
   background-color: #007ACC; /* 顶部导航栏背景颜色 */
-  padding: 10px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end; /* 将导航栏内容推到右边 */
 }
 
 .top-nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  text-align: center;
+  display: flex; /* 将导航链接水平排列 */
 }
 
 .top-nav ul li {
-  display: inline;
-  margin: 0 15px;
+  margin-left: 20px; /* 控制链接之间的间距 */
 }
 
 .top-nav ul li a {
@@ -35,8 +56,6 @@ header {
   background-color: #005AB5; /* 悬停时的背景颜色 */
 }
 
-.main-content {
-  padding: 20px;
-  background-color: #ffffff;
-  box-sizing: border-box;
+.content {
+  margin-top: 20px;
 }
