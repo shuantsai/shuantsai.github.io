@@ -17,6 +17,7 @@ permalink: /research/
 ### *International Relations*
 - **Hashtag Activism in a Politicized Pandemic: Framing the Campaign to Include Taiwan in the Efforts to Combat COVID-19**  
   *New Media & Society*, 2022. (with Liu et al.)
+  
   [Full Text](https://journals.sagepub.com/doi/full/10.1177/14614448221099173)
 
 ## **Non-Peer-Reviewed Publications**
