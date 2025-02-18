@@ -16,3 +16,14 @@ permalink: /research/
 
 - **Hashtag Activism in a Politicized Pandemic: Framing the Campaign to Include Taiwan in the Efforts to Combat COVID-19**  
   *New Media & Society*, 2022. (with Liu et al.)
+
+## **Non-Peer-Reviewed Publications**
+
+- **Book Review: *Campaigning in a Racially Diversifying America: When and How Cross-Racial Electoral Mobilization Works* by Loren Collingwood**  
+  *書評：《多元種族美國的競選─跨種族選舉動員何時以及如何發揮作用》,*  
+  *Taiwan Democracy Quarterly* 19(2): 143-150, 2022. (in Mandarin)  
+
+- **Internet Campaign in Taiwan**  
+  In *Michael Hsin-Huang Hsiao (Ed.), Encyclopedia of Taiwan Studies*. Leiden: Brill, 2022.
+
+
