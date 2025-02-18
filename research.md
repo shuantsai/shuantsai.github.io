@@ -9,8 +9,7 @@ permalink: /research/
 ## **Peer-Reviewed Publications**
 
 ### *Asian American Politics*
-- **Asian American Politicians: Strategic Communication in COVID**  
-  *Tweets of “Stop Asian Hate” Amid US-China Tensions.*  
+- **Asian American Politicians' Strategic Communication in COVID: Tweets of “Stop Asian Hate” Amid US-China Tensions**  
   *East-West Center, Occasional Paper*, 2022.  
   [Full Text](https://www.eastwestcenter.org/publications/asian-american-politicians-strategic-communication-covid-tweets-stop-asian-hate-amid)
 
